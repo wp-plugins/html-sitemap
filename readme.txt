@@ -4,7 +4,7 @@ Donate link: http://www.pluginspodcast.com/contact/
 Tags: sitemap, page, pages, shortcode, cms, static, short code, map, pagemap, site, html
 Requires at least: 2.7.0
 Tested up to: 3.3.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 Adds an HTML (Not XML) sitemap of your blog pages (not posts) by entering the shortcode [html_sitemap], perfect for those who use WordPress as a CMS.
 
@@ -55,7 +55,7 @@ Though `html-sitemap` still works, the new HTML Sitemap shortcode is `html_sitem
 == Changelog ==
 
 
-= 1.2 =
+= 1.1.2 =
 * Released 1/31/2012
 * Hyphen in shortcode changed to underscore. `html_sitemap` and `htmlsitemap` shortcodes work.  [read more here](http://wordpress.org/support/topic/plugins-wont-coexist?replies=5)
 * HTML Sitemap compatible with latest versions of WordPress up to 3.3.1
