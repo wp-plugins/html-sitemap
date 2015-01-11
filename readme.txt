@@ -1,7 +1,7 @@
 === HTML Page Sitemap ===
 Contributors: amandato, pluginspodcast
 Donate link: http://www.pluginspodcast.com/contact/
-Tags: sitemap, page, pages, shortcode, cms, static, short code, map, pagemap, site, html
+Tags: sitemap, page, pages, shortcode, cms, static, short code, map, pagemap, site, html, html sitemap
 Requires at least: 2.7.0
 Tested up to: 4.1
 Stable tag: 1.1.4
