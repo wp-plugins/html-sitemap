@@ -1,10 +1,10 @@
 === HTML Page Sitemap ===
-Contributors: Angelo Mandato, PluginsPodcast.com
+Contributors: amandato, pluginspodcast
 Donate link: http://www.pluginspodcast.com/contact/
 Tags: sitemap, page, pages, shortcode, cms, static, short code, map, pagemap, site, html
 Requires at least: 2.7.0
-Tested up to: 3.5.1
-Stable tag: 1.1.3
+Tested up to: 4.1
+Stable tag: 1.1.4
 
 Adds an HTML (Not XML) sitemap of your blog pages (not posts) by entering the shortcode [html_sitemap], perfect for those who use WordPress as a CMS.
 
@@ -25,12 +25,17 @@ Example shortcode will add a sitemap to a page displaying only children and gran
 
 `[html_sitemap depth=2 child_of=CURRENT]`
 
-Last example shortcode will add a sitemap displaying the page modified date with the pages sorted by the menu order number.
+Example shortcode will add a sitemap displaying the page modified date with the pages sorted by the menu order number.
 
 `[html_sitemap show_date=modified sort_column=menu_order]`
 
+Example shortcode excluding multiple pages with ids 708, 1024 and 42.
 
-Please see the [Template Documentation for the `wp_list_pages` function](http://codex.wordpress.org/Template_Tags/wp_list_pages) for detailed documentation of the available attributes and their values.
+`[html_sitemap exclude="708,1024,42"]`
+
+Please see the [Template Documentation for the wp _ list _ pages function](http://codex.wordpress.org/Template_Tags/wp_list_pages) for detailed documentation of the available attributes and their values.
+
+Anything you can do with the `wp_list_pages` function you should be able to do with this shortcode.
 
 For the latest information visit the website.
 
@@ -53,6 +58,13 @@ Though `html-sitemap` still works, the new HTML Sitemap shortcode is `html_sitem
 1. HTML Page Sitemap in the Default WordPress theme.
 
 == Changelog ==
+
+= 1.1.4 =
+* Released on 1/11/2015
+* Tested with WordPress 4.1.
+* End of source no longer includes closing PHP tag as recommended by WordPress.
+* Updated readme, added additional example excluding multipe pages.
+
 
 = 1.1.3 =
 * Released 3/11/2013
