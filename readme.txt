@@ -3,7 +3,7 @@ Contributors: amandato, pluginspodcast
 Donate link: http://www.pluginspodcast.com/contact/
 Tags: sitemap, page, pages, shortcode, cms, static, short code, map, pagemap, site, html, html sitemap
 Requires at least: 2.7.0
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.1.4
 
 Adds an HTML (Not XML) sitemap of your blog pages (not posts) by entering the shortcode [html_sitemap], perfect for those who use WordPress as a CMS.
